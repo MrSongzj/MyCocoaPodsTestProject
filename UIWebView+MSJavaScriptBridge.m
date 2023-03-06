@@ -173,6 +173,11 @@ NSString *wholeNameOfCallback(NSString *callbackName)
     }
 }
 
+- (void)ms_removeHandler2:(NSString *)handlerName
+{
+    NSLog(@"update_1");
+}
+
 #pragma mark - Notification
 
 - (void)ms_jsContextDidCreate:(NSNotification *)notification

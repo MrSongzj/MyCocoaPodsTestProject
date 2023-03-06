@@ -51,5 +51,6 @@ typedef void (^MSJSBHandler)(id data, MSJSBCallback callback);
  移除已经注册的方法。
  */
 - (void)ms_removeHandler:(NSString *)handlerName;
+- (void)ms_removeHandler2:(NSString *)handlerName;
 
 @end
