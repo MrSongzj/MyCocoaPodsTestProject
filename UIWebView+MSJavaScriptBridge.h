@@ -52,5 +52,6 @@ typedef void (^MSJSBHandler)(id data, MSJSBCallback callback);
  */
 - (void)ms_removeHandler:(NSString *)handlerName;
 - (void)ms_removeHandler2:(NSString *)handlerName;
+- (void)ms_removeHandler3:(NSString *)handlerName;
 
 @end
