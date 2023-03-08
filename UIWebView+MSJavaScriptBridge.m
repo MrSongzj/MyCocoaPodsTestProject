@@ -180,7 +180,7 @@ NSString *wholeNameOfCallback(NSString *callbackName)
 
 - (void)ms_removeHandler3:(NSString *)handlerName
 {
-    NSLog(@"update_2_2");
+    NSLog(@"update_2_3");
 }
 
 #pragma mark - Notification
